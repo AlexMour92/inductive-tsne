@@ -297,3 +297,7 @@ Paramètres du Swiss Roll:
 ![image](https://github.com/user-attachments/assets/f8e81bfa-a85f-4eb6-b8eb-1dcfa2c98385)
 
 Les premiers résultats sont très prometteurs pour les deux méthodes. La capacité de XGBoost à reproduire la structure des données en 2D produite par t-SNE est cependant nettement supérieure à celle du réseau de neurones profond, mais probablement au détriment d'une capacité de généralisation moindre. L'écart des durées d'apprentissage est significatif sur des jeux de données de petite taille mais semble se réduire significativement à mesure que le nombre de points augmente dans le jeu d'entraînement.
+
+## A venir
+
+Afin d'étudier les capacités de généralisation des deux algorithmes, on mesurera leurs performances respectives sur des jeux de données plus complexes comme MNIST et Digits.
